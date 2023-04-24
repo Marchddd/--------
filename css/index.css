@@ -1,0 +1,115 @@
+.publish {
+    background-color: whitesmoke;
+}
+
+.publishHeadshot {
+    background: url(../img/头像.jpg) no-repeat;
+    background-size: contain;
+}
+
+.publish-common {
+    position: relative;
+    display: inline-block;
+    width: 79px;
+    height: 100px;
+
+    margin-left: 51px;
+}
+
+.publish-common p {
+    position: absolute;
+    bottom: 0;
+    padding-left: 25px;
+    font-size: 16px;
+
+}
+
+.publishText {
+    background: url(../icofont-img/文字.png) no-repeat;
+
+    background-size: 82px 71px;
+}
+
+.publishImg {
+    background: url(../icofont-img/图片列表-02.png) no-repeat;
+    background-size: 82px 71px;
+}
+
+.publishVideo {
+    background: url(../icofont-img/视频.png) no-repeat;
+    background-size: 82px 71px;
+}
+
+.publishLongArticle {
+    background: url(../icofont-img/文章管理02.png) no-repeat;
+    background-size: 82px 71px;
+}
+
+/* 使用媒体查询 :1146px  */
+@media screen and (max-width: 1146px) {
+    .main_right_head {
+        width: 144px;
+        position: fixed;
+        right: 0;
+        top: 80px;
+    }
+}
+
+@media screen and (max-width: 1146px) {
+    .main_left {
+        width: 79%;
+    }
+}
+
+
+@media screen and (max-width: 927px) {
+
+
+    .publish-common {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    .main_left {
+        width: 99%;
+    }
+
+    .publish-common {
+        margin-left: 36px;
+    }
+
+    .main_right {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 680px) {
+    .publish-common {
+        margin-left: 22px;
+    }
+}
+
+@media screen and (max-width: 572px) {
+    .publish-common {
+        margin-left: 5px;
+    }
+
+    .publishText {
+        background-size: 60px 50px;
+    }
+
+    .publishImg {
+        background-size: 60px 50px;
+    }
+
+    .publishVideo {
+        background-size: 60px 50px;
+    }
+
+    .publishLongArticle {
+        background-size: 60px 50px;
+    }
+}

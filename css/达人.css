@@ -1,0 +1,100 @@
+.talent {
+    margin-top: 40px;
+}
+
+.talent_main {
+
+    background-color: white;
+
+}
+
+.talent_left {
+    float: left;
+    width: 70%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.talent_right {
+    float: right;
+    width: 30%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.talent_left_head {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #eee
+}
+
+.talent_left_head li {
+    margin-left: 15px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 15px;
+    height: 50px;
+    width: 80%;
+    background-color: #ececee;
+
+    font-size: clamp(0.7rem, 0.489rem + 1.05vw, 1.1rem);
+
+}
+
+.talent_left_head_common {
+    flex-grow: 1;
+    height: 88px;
+    background-color: white;
+}
+
+.talent_left_content_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #ececee;
+}
+
+.talentTalk {
+    width: 80%;
+    height: 250px;
+    margin: 20px;
+    background-color: bisque;
+
+}
+
+/* 右边的部分 */
+.talent_right_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 88px;
+    background-color: white;
+}
+
+.talent_right_head_common {
+    display: inline-block;
+    width: 30%;
+    height: 50%;
+    color: white;
+    background-color: #81ad05;
+    font-size: clamp(0.7rem, 0.489rem + 1.05vw, 1.0rem);
+    line-height: 300%;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.agency {
+    width: 150px;
+}
+
+.talent_right_main li {
+    font-size: 18px;
+    padding-left: 30px;
+    line-height: 50px;
+    height: 50px;
+    background-color: thistle;
+    border-bottom: 2px solid white;
+}

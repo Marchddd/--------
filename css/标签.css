@@ -1,0 +1,22 @@
+body {
+    background-color: #ededef;
+}
+
+.labelMain {
+    margin-top: 40px;
+    background-color: white;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(5, 19%);
+    grid-template-rows: repeat(3, 33%);
+    grid-row-gap: 2px;
+    grid-column-gap: 2px;
+    padding: 20px;
+
+}
+
+.labelMain img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

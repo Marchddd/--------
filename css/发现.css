@@ -1,0 +1,58 @@
+body {
+    background-color: whitesmoke;
+}
+
+.find_nav {
+    background-color: white;
+}
+
+.find_nav_contain {
+    display: flex;
+    height: 75px;
+
+    justify-content: space-around;
+}
+
+.find_nav_contain li {
+    text-align: center;
+    font-size: clamp(0.7rem, 0.489rem + 1.05vw, 1.2rem);
+    line-height: 75px;
+    flex-grow: 1;
+    height: 100%;
+    display: inline-block;
+
+}
+
+.find_nav_contain li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+.find_nav_contain li a:hover {
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+.findMain {
+    margin-top: 40px;
+
+
+}
+
+.findMainContainer {
+    column-count: 4;
+    /* 想要排成的列数 */
+
+    /* 规定列之间的间隔 */
+    column-gap: 10px;
+}
+
+.item img {
+    width: 100%;
+}
+
+.item {
+    margin-top: 10px;
+}
